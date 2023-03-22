@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=d86c2f0c1a28f1c4bb3b11535da540c3&amp;type=3#Menu" />
+    <ui:VisualElement name="MainMenuScreen" class="screen screen-background" style="height: 50%; width: 100%; justify-content: flex-start; -unity-text-align: middle-left; background-image: url(&apos;project://database/Assets/Graphics/BloodSea1920.jpg?fileID=2800000&amp;guid=2f4b3468975081a4588055eceaac3a4c&amp;type=3#BloodSea1920&apos;);">
+        <ui:VisualElement name="MenuCenterpanel" class="MenuCenterPanel MenuBackgroundColor" style="justify-content: flex-start; position: relative; flex-direction: column; flex-wrap: nowrap; flex-basis: auto; max-height: 100%; min-height: 100%; width: 40%;">
+            <ui:VisualElement name="MenuStartTitle" style="width: 100%; height: 35%; background-image: url(&apos;project://database/Assets/Graphics/Death.png?fileID=2800000&amp;guid=893c5a8727bf6e047ae6747973135fdd&amp;type=3#Death&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:VisualElement name="MenuButtonList" class="MenuButtonList">
+                <ui:Button text="try again" display-tooltip-when-elided="true" name="StartButton" class="button MenuButton" style="height: 30%; max-height: 100px; border-left-color: rgb(113, 21, 21); border-right-color: rgb(113, 21, 21); border-top-color: rgb(113, 21, 21); border-bottom-color: rgb(113, 21, 21);" />
+                <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="button MenuButton" style="height: 30%; border-left-color: rgb(113, 21, 21); border-right-color: rgb(113, 21, 21); border-top-color: rgb(113, 21, 21); border-bottom-color: rgb(113, 21, 21);" />
+                <ui:Label text="Don&apos;t get poisons by the plants..." display-tooltip-when-elided="true" name="Tip" style="width: 120%; height: 30%; -unity-text-align: middle-center; -unity-font-definition: url(&apos;project://database/Assets/Youmurdererbb-pwoK%20SDF%201.asset?fileID=11400000&amp;guid=9edde09d85501f548bd1118b81e3e690&amp;type=2#Youmurdererbb-pwoK SDF 1&apos;); font-size: 25px; color: rgb(70, 229, 16);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
